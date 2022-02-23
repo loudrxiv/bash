@@ -52,3 +52,29 @@ sudo apt install git pip pipenv texlive-full buld-essential graphviz gnuplot isy
 ll
 #1645589359
 git clone https://github.com/mebeid1/bash.git
+#1645589374
+cp .bash* bash/
+#1645589377
+cd bash/
+#1645589379
+git add .
+#1645589414
+git commit -m "using oh-my-bash this time around, only porting aliases"
+#1645589431
+git config --global user.email mae117@pitt.edu
+#1645589439
+git config --global user.name mebeid1
+#1645589441
+git commit -m "using oh-my-bash this time around, only porting aliases"
+#1645589451
+git push -u origin main
+#1645589493
+cd
+#1645589494
+ll
+#1645588604
+sudo apt install git pip pipenv texlive-full build-essential graphviz gnuplot isync
+#1645589528
+vim .bashrc
+#1645590029
+cp .bash* bash/
