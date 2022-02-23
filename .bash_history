@@ -78,3 +78,51 @@ sudo apt install git pip pipenv texlive-full build-essential graphviz gnuplot is
 vim .bashrc
 #1645590029
 cp .bash* bash/
+#1645590045
+cd bash
+#1645590054
+git add .
+#1645590061
+git commit -m "small changes"
+#1645590065
+git push -u origin main
+#1645590040
+bash
+#1645590105
+sudo install snapd
+#1645590115
+sudo install snap
+#1645590122
+sudo apt install snapd
+#1645590142
+sudo apt install flatpak
+#1645590171
+sudo apt install gnome-software-plugin-flatpak
+#1645590216
+cd /tmp
+#1645590216
+wget --content-disposition   "https://gist.githubusercontent.com/djfdyuruiry/6720faa3f9fc59bfdf6284ee1f41f950/raw/952347f805045ba0e6ef7868b18f4a9a8dd2e47a/install-sg.sh"
+#1645590226
+chmod +x /tmp/install-sg.sh
+#1645590233
+/tmp/install-sg.sh && rm /tmp/install-sg.sh
+#1645590383
+sudo apt install gedit
+#1645590414
+sudo apt install shellcheck markdown hunspell isort mu4e
+#1645590430
+pip install black
+#1645590443
+vim .bashrc
+#1645590486
+saus
+#1645590492
+source .nashr
+#1645590496
+source .bashrc
+#1645590498
+saus
+#1645590500
+cd
+#1645590501
+ll

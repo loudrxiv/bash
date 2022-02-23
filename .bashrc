@@ -47,7 +47,7 @@ alias eup="~/.emacs.d/bin/doom upgrade; ~/.emacs.d/bin/doom sync; ~/.emacs.d/bin
 alias startr="sudo rstudio-server start"
 alias stopr="sudo rstudio-server start"
 alias up="sudo apt update && sudo apt upgrade -y"
-alias saus="source .zshrc"
+alias saus="source .bashrc"
 
 # PLUGINS
 ## /.oh-my-bash/plugins/*
@@ -57,6 +57,9 @@ plugins=(
   git
   bashmarks
 )
+
+# EXPORTS
+PATH=/home/moo/.local/bin:$PATH
 
 # OH-MY-BASH
 source "$OSH"/oh-my-bash.sh
