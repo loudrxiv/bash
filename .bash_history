@@ -198,3 +198,431 @@ git push -u origin main
 cd
 #1645591137
 ll
+#1645624358
+cp -r .bash* ~
+#1645624363
+cd
+#1645624366
+source .bashrc
+#1645624368
+saus
+sudo apt update && sudo apt upgrade -y
+ls
+sudo apt install pip pipenv graphviz isort mu4e texlive-full 
+#1645624378
+sudo apt install gedit
+#1645624553
+vim .bashrc
+#1645624624
+saus
+#1645624629
+cd
+#1645624630
+ll
+#1645624854
+sudo apt install build-essential
+#1645624901
+l
+#1645624902
+ll
+#1645625001
+pip install black py-flakes nose async
+#1645625021
+pip install black nose async
+#1645625031
+s
+#1645625032
+cd
+#1645625065
+gedit
+#1645625075
+git clone git://git.sv.gnu.org/emacs.git
+#1645625263
+cd emacs/
+#1645625271
+sudo apt install build-essential libgtk-3-dev libgnutls28-dev libtiff5-dev libgif-dev libjpeg-dev libpng-dev libxpm-dev libncurses-dev texinfo
+#1645625455
+cd
+#1645625455
+s
+#1645625461
+rm -rf emacs/
+#1645625462
+emacs
+#1645625478
+wget https://ftp.gnu.org/pub/gnu/emacs/emacs-27.2.tar.gz
+#1645625517
+emacs -xzvf emacs-27.2.tar.gz 
+#1645625523
+tar -xzvf emacs-27.2.tar.gz 
+#1645625534
+rm -rf emacs-27.2.tar.gz 
+#1645625537
+cd  emacs-27.2/
+#1645625537
+s
+#1645625551
+cat autogen.sh 
+#1645625614
+./autogen.sh
+#1645625625
+sudo apt install autoconf
+#1645625633
+./autogen.sh
+#1645625686
+./configure --with-cairo
+#1645625738
+./configure --with-cairo --with-mailutils
+#1645625814
+make
+#1645625919
+sudo make install
+#1645625936
+emacs
+#1645625968
+cd
+#1645626069
+sudo chattr -R +i emacs-27.2/
+#1645626071
+l
+#1645626092
+man chattr
+#1645626098
+s
+#1645626110
+touch KNMD
+#1645626112
+vim KNMD 
+#1645626139
+ll
+#1645626156
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+#1645626171
+.emacs.d/bin/doom install
+#1645626389
+ll
+#1645626405
+rm -rf .doom.d/
+#1645626410
+git clone https://github.com/mebeid1/.doom.d.git
+#1645626413
+eup
+#1645626671
+sudo apt intall ripgrep fd-find 
+#1645626676
+sudo apt install ripgrep fd-find 
+#1645626686
+.emacs.d/bin/doom doctor
+#1645626703
+ll
+#1645626705
+.emacs.d/bin/doom doctor
+#1645626719
+cd .doom.d/org-pomodoro-third-time/
+#1645626721
+ll
+#1645626726
+l
+#1645626728
+cd ..
+#1645626734
+rm -rf org-pomodoro-third-time/
+#1645626867
+git clone --depth=1 https://github.com/telotortium/org-pomodoro-third-time.git
+#1645626871
+cd org-
+#1645626877
+cd org-pomodoro-third-time/
+#1645626878
+l
+#1645626881
+rm -rf .gt
+#1645626883
+rm -rf .git
+#1645626885
+cd ..
+#1645626886
+ll
+#1645626893
+cd org-logseq/
+#1645626894
+ll
+#1645626895
+cd ..
+#1645626902
+rm -rf org-logseq/
+#1645626947
+git clone --depth=1 https://github.com/llcc/org-logseq.git
+#1645626951
+cd org-logseq/
+#1645626953
+ll
+#1645626955
+rm -rf .git/
+#1645626957
+cd ..
+#1645626960
+clar
+#1645626961
+cd
+#1645626975
+sudo apt insall fd-find ripgrep
+#1645626979
+sudo apt install fd-find ripgrep
+#1645626980
+cd
+#1645626984
+.emacs.d/bin/doom doctor
+#1645627038
+sudo apt install cmake gcc hunspell grip markdown xclip maim gnuplot shellcheck async
+#1645627041
+sudo apt install cmake gcc hunspell grip markdown xclip maim gnuplot shellcheck sync
+#1645627043
+sudo apt install cmake gcc hunspell grip markdown xclip maim gnuplot shellcheck isync
+#1645627069
+pip install pyflakes pytest
+#1645627074
+.emacs.d/bin/doom doctor
+#1645627082
+emacs
+#1645627196
+.emacs.d/bin/doom doctor
+#1645627213
+sudp apt search jre
+#1645627218
+sudo apt search jre
+#1645627232
+sudo apt install openjdk-17-jre
+#1645627251
+ll
+#1645627258
+.emacs.d/bin/doom doctor
+#1645627276
+eup
+#1645627322
+cd emacs-27.2/
+#1645627352
+./configure --with-cairo --with-mailutils --wih-json
+#1645627356
+./configure --with-cairo --with-mailutils --with-json
+#1645627367
+man chatt
+#1645627368
+man chattr
+#1645627468
+cd
+#1645627479
+chattr -RV -i emacs-27.2/
+#1645627495
+chattr -RV -e emacs-27.2/
+#1645627500
+chattr -RV -i emacs-27.2/
+#1645627520
+sudo chattr -RV -i emacs-27.2/
+#1645627532
+cd m
+#1645627535
+cd emacs-27.2/
+#1645627539
+sudo make uninstall
+#1645627543
+emacs
+#1645627556
+./configure --with-cairo --with-mailutils --with-json
+#1645627597
+make
+#1645627719
+sudo make install 
+#1645627733
+cd
+#1645627740
+chattr -RV +i emacs-27.2/
+#1645627746
+clar
+#1645627748
+cd
+#1645627750
+emacs
+#1645627758
+l
+#1645627761
+eup
+#1645627804
+killmax
+#1645627808
+gedi
+#1645627810
+gedit
+#1645627818
+emacs
+#1645627891
+startmax
+ls
+ll
+git clone https://github.com/mebeid1/bash.git
+ls
+cd bash/
+ls
+l
+ll
+cp .bash* ~
+cd
+ls
+ll
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+#1645627902
+startmax
+#1645627905
+saud
+#1645627906
+saus
+#1645627909
+startmax
+#1645627913
+vim .bashrc
+#1645627941
+startmax
+#1645627946
+vim .bashrc
+#1645627956
+saud
+#1645627957
+saus
+#1645627959
+startmax
+#1645627984
+emacs --daemon &; sleep 5; emacsclient -c -a 'emacs'
+#1645628000
+emacs --daemon &; sleep 5; emacsclient -c
+#1645628013
+emacs --daemon &; emacsclient -c
+#1645628019
+emacs --daemon &
+#1645628030
+emacs --daemon &; emacsclient -c
+#1645628034
+emacsclient -c
+#1645628055
+killmax
+#1645628058
+emacs --daemon &; emacsclient -c
+#1645628279
+eup
+#1645628339
+cd emacs-27.2/
+#1645628356
+sudo make uninstall
+#1645628360
+cd
+#1645628366
+chattr -RV +i emacs-27.2/
+#1645628395
+sudo apt install tash-cli
+#1645628398
+sudo apt install trash-cli
+#1645628446
+sudo add-apt-repository ppa:kelleyk/emacs
+#1645628462
+up
+#1645628469
+emacs
+#1645628478
+sudo apt install emacs27
+#1645628494
+emacs
+#1645628508
+eup
+#1645628765
+up
+#1645628770
+saus
+#1645628775
+startmax
+#1645628778
+vim .basrh
+#1645628785
+vim .bashrc
+#1645628875
+saus
+#1645628877
+eup
+#1645628922
+startmax
+#1645628929
+vim .bashrc
+#1645628951
+startmax
+#1645628952
+vim .bashrc
+#1645628983
+saus
+#1645628989
+startmax
+#1645629001
+emax
+#1645629020
+emacs
+#1645629157
+emax
+#1645629169
+vim .bashrc
+#1645629181
+startmax
+#1645629184
+vim .bashrc
+#1645629193
+startmax
+#1645629196
+saus
+#1645629198
+startmax
+#1645629200
+vim .bashrc
+#1645629209
+saus
+#1645629215
+source .bashrc
+#1645629219
+vim .bashrc
+#1645629319
+saus
+#1645629322
+startmax
+#1645629327
+emax
+#1645629343
+cd
+#1645629346
+cd .doom.d/
+#1645629354
+vim config.org 
+#1645629368
+cd
+#1645629370
+eup
+#1645629406
+d
+#1645629407
+cd
+#1645629420
+emacs
+#1645629479
+clearl
+#1645629483
+ll
+#1645629494
+vim .bashrc
+#1645629531
+emacs
+#1645629620
+startmax
+#1645629631
+emacs --daemon &
+#1645629644
+emacsclient -c 
+#1645629658
+s
+#1645629660
+cd
+#1645629694
+vim .bashrc

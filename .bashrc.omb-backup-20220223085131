@@ -34,37 +34,28 @@ aliases=(
   general
 )
 
-alias ll="ls -a"
-
 alias bashconfig="mate ~/.bashrc"
 alias ohmybash="mate ~/.oh-my-bash"
-
-alias csb="ssh mae117@cluster.csb.pitt.edu"
-alias dennis="ssh mae117@klaus.devbio.pitt.edu"
-
-alias eup="~/.emacs.d/bin/doom upgrade; ~/.emacs.d/bin/doom sync; ~/.emacs.d/bin/doom purge; ~/.emacs.d/bin/doom doctor"
-alias startmax="emacs --daemon &; sleep 5; emacsclient -a 'emacs'"
+alias rnote="flatpak run com.github.flxzt.rnote"
+alias startmax="emacs --daemon &; sleep 5; emacsclient -c -a 'emacs'"
 alias emax="emacsclient -c -a 'emacs'"
 alias killmax="emacsclient -e '(kill-emacs)'"
-
+alias ll="ls -a"
+alias csb="ssh mae117@cluster.csb.pitt.edu"
+alias dennis="ssh mae117@klaus.devbio.pitt.edu"
+alias eup="~/.emacs.d/bin/doom upgrade; ~/.emacs.d/bin/doom sync; ~/.emacs.d/bin/doom purge; ~/.emacs.d/bin/doom doctor"
 alias startr="sudo rstudio-server start"
 alias stopr="sudo rstudio-server start"
-alias rnote="flatpak run com.github.flxzt.rnote"
-
 alias up="sudo apt update && sudo apt upgrade -y"
-alias saus="source ~/.bashrc"
+alias saus="source .bashrc"
 
 # PLUGINS
 ## /.oh-my-bash/plugins/*
 ## ~/.oh-my-bash/custom/plugins/
 
-# https://github.com/ohmybash/oh-my-bash/tree/master/plugins
 plugins=(
   git
   bashmarks
-  battery
-  progress
-  pyenv
 )
 
 # EXPORTS
