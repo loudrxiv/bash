@@ -43,7 +43,7 @@ alias csb="ssh mae117@cluster.csb.pitt.edu"
 alias dennis="ssh mae117@klaus.devbio.pitt.edu"
 
 alias eup="~/.emacs.d/bin/doom upgrade; ~/.emacs.d/bin/doom sync; ~/.emacs.d/bin/doom purge; ~/.emacs.d/bin/doom doctor"
-alias startmax="emacs --daemon &; sleep 5; emacsclient -a 'emacs'"
+alias startmax="emacs --daemon && sleep 5 && emacsclient -c -a 'emacs'"
 alias emax="emacsclient -c -a 'emacs'"
 alias killmax="emacsclient -e '(kill-emacs)'"
 

@@ -1196,3 +1196,350 @@ cd
 l
 #1646073759
 ll
+#1646144411
+cp .bash* ~
+#1646144413
+y
+#1646144414
+cd
+#1646144420
+source .bashrc
+#1646144421
+saus
+#1646144499
+git clone https://github.com/hubisan/emacs-wsl.git
+#1646144503
+cd emacs-wsl/
+#1646144509
+cd install-emacs/
+#1646144527
+./install-emacs-shell-01-dependencies.sh 
+#1646144561
+cat install-emacs-shell-01-dependencies.sh 
+#1646144574
+cat install-emacs-shell-02-download.sh 
+#1646144583
+cat install-emacs-shell-03-configure-install.sh 
+sudo apt update && sudo apt upgrade -y
+sudo apt install build-essential ripgrep fd-find grip markdown shellcheck texlive-full async pip
+sudo apt install build-essential ripgrep fd-find grip markdown shellcheck texlive-full async python3-pip
+sudo apt install build-essential ripgrep fd-find grip markdown shellcheck texlive-full isync python3-pip
+#1646144816
+./install-emacs-shell-01
+#1646144818
+./install-emacs-shell-01-dependencies.sh 
+#1646145062
+./install-emacs-shell-02-download.sh 
+#1646145200
+ll
+#1646145211
+mv KPNMD.txt KPNMD
+#1646145212
+CLEAR
+#1646145212
+LS
+#1646145079
+./install-emacs-shell-03-configure-install.sh 
+#1646145255
+cd
+#1646145261
+emacs
+#1646145274
+gedit
+#1646145282
+sudo apt install neovim gedit
+#1646145311
+gedit
+#1646145316
+emacs
+#1646145334
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+#1646145391
+pip install pyflakes pytest black nose isort 
+#1646145396
+;clear
+#1646145501
+sudo apt install hunspell
+#1646145515
+sudo apt install makrdown graphviz gnuplot
+#1646145520
+sudo apt install markdown graphviz gnuplot
+#1646145545
+sudo apt search jre
+#1646145556
+sudo apt install openjdk-17-jre
+#1646145799
+sudo apt install xclip 
+#1646145341
+.emacs.d/bin/doom install
+#1646145812
+eup
+#1646145897
+cd .doom.d/
+#1646145903
+cd org-habit-report/
+#1646145905
+cd ..
+#1646145913
+rm -rf org-logseq/ org-pomodoro-third-time/
+#1646145931
+git clone https://github.com/telotortium/org-pomodoro-third-time.git
+#1646145936
+cd org-pomodoro-third-time/
+#1646145940
+rm -rf .git/
+#1646145944
+cd ..
+#1646145963
+git clone https://github.com/llcc/org-logseq.git
+#1646145967
+cdorg-lo
+#1646145970
+cd org-lo
+#1646145971
+cd org-logseq/
+#1646145976
+rm -rf .git/
+#1646145977
+cd
+#1646145985
+eup
+#1646146075
+sudo apt install gcc cmake main pipenv mu4e
+#1646146087
+sudo apt install gcc cmake maim pipenv mu4e
+#1646146157
+eup
+#1646146236
+emacs --daemon &
+#1646146251
+emacsclient -c
+#1646146324
+killmax
+#1646146333
+emacsclient -c
+#1646146337
+emacs --daemon &
+#1646146408
+yemacsclient -c
+#1646146419
+emacsclient -c
+#1646146509
+eup
+#1646146701
+vim .bashrc
+#1646146729
+killamx
+#1646146734
+killmax
+#1646146737
+startmax
+#1646146740
+saus
+#1646146741
+startmax
+#1646146810
+sudo apt-get install dos2unix
+#1646146824
+dos2unix .bashrc
+#1646146829
+saus
+#1646146836
+startmax
+#1646146850
+vim .bashrc
+#1646146902
+saus
+#1646146904
+startma
+#1646146905
+startmax
+#1646146908
+dos2unix .bashrc
+#1646146910
+startmax
+#1646146914
+vim .bashrc
+#1646146925
+saus
+#1646146927
+startmax
+#1646146930
+vim .bashrc
+#1646147048
+saud
+#1646147050
+saus
+#1646147052
+startmax
+#1646147068
+killmax
+#1646147082
+vim .bashrc
+#1646147099
+suas
+#1646147101
+saus
+#1646147105
+startmax
+#1646147463
+killmax
+#1646148455
+cd Cache/Sync/org/
+#1646148463
+cd life/
+#1646148478
+mv professional/ GTD
+#1646148485
+cd leisure/
+#1646148490
+cd ..
+#1646148493
+cd mental/
+#1646148493
+sl
+#1646148496
+cd mental-safe/
+#1646148509
+mv GTD.pdf ../../GTD/
+#1646148514
+cd ..
+#1646148525
+cd GTD/
+#1646148529
+cd software/
+#1646148530
+s
+#1646148533
+cd ..
+#1646148542
+cd software/
+#1646148543
+pwd
+#1646148635
+cd ..
+#1646148833
+cd software/
+#1646148840
+rm -rf ish.org emacs.org obs.org 
+#1646149413
+cd ..
+#1646149424
+sudo apt install trash-cli
+#1646149460
+rm -rf hardware/ software/
+#1646149462
+cd
+#1646149474
+sudo apt uninstall trash-cli
+#1646149480
+sudo apt rmove --purge trash-cli
+#1646149484
+sudo apt remove --purge trash-cli
+#1646149490
+cd
+#1646149522
+cd Recycle Bin
+#1646149647
+cd \$Recycle.Bin\
+#1646147466
+startmax
+#1646149882
+killmax
+#1646149889
+eup
+#1646149930
+startmax
+#1646158650
+emax
+git
+git clone https://github.com/mebeid1/.doom.d.git
+git clone https://github.com/mebeid1/bash.git
+ln -s /mnt/c/Users/mork/Documents/Cache/ ~
+ls
+clear
+ls
+ll
+mv /mnt/c/Users/mork/Documents/KPNMD.txt ~
+CLEAR
+clear
+ls
+LS
+ls
+clear
+ls
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+#1646158673
+killmax
+#1646158789
+gedit
+#1646158769
+startmax
+#1646169234
+emax
+#1646186144
+eup
+#1646186206
+up
+#1646186258
+startmax
+#1646228417
+emax
+#1646228507
+killmax
+#1646239227
+cd
+#1646239229
+ll
+#1646239247
+ln -s /mnt/c/Users/mork/Documents/ ~
+#1646239253
+ln -s /mnt/c/Users/mork/Downloads/ ~
+#1646239275
+cd G:/
+#1646239293
+cd /mnt/
+#1646239299
+cd g/
+#1646239302
+cd
+#1646239310
+ln -s /mnt/g/ ~
+#1646239313
+ln -s /mnt/z/ ~
+#1646239317
+ll
+#1646239327
+cd /mnt/
+#1646239332
+cd
+#1646239335
+ln -s /mnt/c/ ~
+#1646239337
+ll
+#1646239355
+cd /mnt/c/Users/mork/Pictures/ ~
+#1646239362
+ln -s /mnt/c/Users/mork/Pictures/ ~
+#1646239371
+ln -s /mnt/c/Users/mork/Videos/ ~
+#1646239378
+ln -s /mnt/c/Users/mork/Music/ ~
+#1646239396
+cd Downloads/
+#1646239480
+up
+#1646239490
+eup
+#1646239403
+tar -xzvf deepsea_train_bundle.v0.9.tar.gz 
+#1646239694
+cd deepsea_train/
+#1646239694
+sl
+#1646239705
+cat train.mat 
+#1646239709
+clar
+#1646228560
+startmax
